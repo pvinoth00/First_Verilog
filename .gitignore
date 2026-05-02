@@ -1,55 +1,35 @@
-# Prerequisites
-*.d
+# ========================
+# Vivado generated files
+# ========================
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.vcd
+*.dcp
+*.ltx
+*.xml
+*.bit
+*.bin
+*.xsa
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Vivado directories
+.cache/
+.hw/
+.runs/
+.ip_user_files/
+.sim/
+.gen/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Project files (optional but recommended to ignore)
+*.xpr
 
-# Precompiled Headers
-*.gch
-*.pch
+# OS junk
+.DS_Store
+Thumbs.db
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Temp / backup
+*~
+*.bak
+*.tmp
