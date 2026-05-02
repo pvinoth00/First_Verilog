@@ -1,35 +1,25 @@
-# ========================
-# Vivado generated files
-# ========================
+# Vivado generated folders
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.gen/
+
+# Vivado logs/journals
 *.jou
 *.log
 *.str
-*.pb
-*.wdb
-*.vcd
-*.dcp
-*.ltx
-*.xml
+*.txt
+
+# Build outputs
 *.bit
 *.bin
-*.xsa
-
-# Vivado directories
-.cache/
-.hw/
-.runs/
-.ip_user_files/
-.sim/
-.gen/
-
-# Project files (optional but recommended to ignore)
-*.xpr
+*.ltx
+*.dcp
+*.wdb
+*.vcd
 
 # OS junk
 .DS_Store
 Thumbs.db
-
-# Temp / backup
-*~
-*.bak
-*.tmp
