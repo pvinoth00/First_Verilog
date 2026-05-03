@@ -1,26 +1,25 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/02/2026 05:58:26 PM
-// Design Name: 
-// Module Name: Shift_register
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 
-module Shift_register(
+module Shift_register(clk,rst,my_reg
 
     );
+    input clk;
+    
+    
+    input rst;
+    output reg [3:0] my_reg;
+    always @(posedge clk or posedge rst) begin
+        
+        if(rst || my_reg == 4'b1111)
+            my_reg <= 4'b0000;
+        else
+            my_reg <= my_reg + 1;
+       
+    
+    
+    end
+    
+    
+    
 endmodule
